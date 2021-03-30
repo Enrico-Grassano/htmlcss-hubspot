@@ -1,0 +1,493 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Common */
+body {
+    background-color: #F4F9FD;
+    color: #33475B;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
+footer {
+    width: 100%;
+    height: 550px;
+    background-color: #32495b;
+}
+.container1 {
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid #33475B;
+    background-color: white;
+}
+.container3 {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.subcontainer {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.container4 {
+    margin: 0 auto;
+    width: 70%;
+    height: 1090px;
+}
+.container5 {
+    width: 100%;
+    height: 560px;
+    background-color: #00a7ba;
+    background: linear-gradient(to top right, #00a6bb, #00b1b1, #00bca6);
+}
+.subcontainer-2 {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.container6 {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+.nav1 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 18px 0;
+}
+.nav2 {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 14px 0;
+}
+.jumbotron {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.float-left {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #33475B;
+}
+a:hover {
+    color: teal;
+}
+.chevron {
+    vertical-align: middle;
+}
+.btn {
+    background-color: #FE775A;
+    border-radius: 5%;
+    text-align: center;
+}
+.btn:hover {
+    background-color: #FE775A;
+    opacity: 0.5;
+}
+.btn-text {
+    color: white;
+}
+.btn-text:hover {
+    color: white;
+}
+.list-inline {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.chevron:not(.first) {
+    margin-left: 10px;
+}
+.jumbo-text {
+    position: absolute;
+    top: 10%;
+}
+.cube {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+.cube-text {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+}
+.free-crm {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px lightgray;
+    background-color: #FFFFFF;
+}
+.book-btn {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+}
+.crm-text {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    padding: 20px;
+}
+.hubs {
+    width: 100%;
+    margin: 0 auto;
+}
+.hub {
+    position: relative;
+    width: 30%;
+    height: 470px;
+    padding: 13px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px lightgray;
+    background-color: #FFFFFF;
+}
+.sales,
+.service {
+    margin-left: 48px;
+}
+.hub img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 20px;
+}
+.hub h3 {
+    margin-top: 15px;
+}
+.hub p {
+    margin-top: 15px;
+}
+.hub h4 {
+    margin-top: 20px;
+}
+.hub ul {
+    margin-top: 20px;
+    text-align: left;
+    list-style: none;
+}
+.fa-check-circle {
+    color: #FE775A;
+    margin-right: 10px;
+}
+.popolar-feature {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top: 1px solid #33475B;
+}
+.box-1 {
+    margin-top: 58px;
+}
+.box-3 {
+    margin-top: 40px;
+}
+.hub-btn {
+    position: absolute;
+    left: 30%;
+    bottom: 15px;
+    width: 40%;
+    padding: 10px;
+}
+.up-boxes {
+    position: relative;
+    width: 25%;
+    height: 160px;
+    margin-top: 30px;
+    padding: 10px;
+    border-left: 1px solid white;
+}
+.down-boxes {
+    position: relative;
+    width: 25%;
+    height: 160px;
+    padding: 10px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.number {
+    margin-top: 15px;
+}
+.up-boxes span {
+    position: absolute;
+    top: 65px;
+    right: 60px;
+    font-size: 25px;
+}
+.down-boxes span {
+    position: absolute;
+    top: 65px;
+    right: 60px;
+    font-size: 25px;
+}
+.customers {
+    width: 100%;
+    height: 40%;
+}
+.growing {
+    width: 100%;
+    height: 50%;
+}
+.customers-num {
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+.customers-logos {
+    width: 60%;
+    height: 90%;
+}
+.growing-text {
+    width: 40%;
+    height: 100%;
+}
+.growing-woman {
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+/* Header */
+.language {
+    width: 9%;
+    line-height: 10px;
+    border-right: 1px solid #33475B;
+}
+.contact {
+    width: 9%;
+    line-height: 16px;
+    padding-left: 13px;
+}
+.search-icon {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+#search {
+    max-width: 13px;
+    max-height: 13px;
+    vertical-align: middle;
+}
+.log-in {
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5%;
+    background-color: white;
+    border: 1px solid #FE775A;
+}
+.log-in:hover {
+    background-color: rgba(236, 110, 82, 0.1);
+}
+.log-in > a {
+    color: #FE775A;
+}
+.subscript {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    height: 32px;
+    padding: 6px;
+}
+.nav {
+    padding: 14px 0;
+}
+.logo img {
+    max-width: 90px;
+    max-height: 90px;
+}
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.jumbo-text p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#second-p {
+    margin-top: 30px;
+    font-size: 12px;
+}
+.jumbo-btn {
+    width: 35%;
+    padding: 18px;
+}
+.green-band {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 67px;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
+    background-color: #AFEBE4;
+}
+/* Main */
+.cube img {
+    padding-top: 30px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.cube-text p {
+    margin-top: 20px;
+}
+.book-btn img {
+    max-height: 110px;
+    max-width: 110px;
+}
+.book-btn div {
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+.crm-text p {
+    margin-top: 20px;
+}
+.crm-text h4 {
+    display: inline-block;
+    margin-top: 20px;
+}
+#line {
+    display: inline-block;
+    margin-left: 30px;
+    width: 250px;
+    border-bottom: 1px solid #33475B;
+
+}
+.crm-text li{
+    margin-right: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.crm-text i {
+    color: #FE775A;
+    margin-right: 5px;
+}
+#office {
+    max-width: 95px;
+    max-height: 95px;
+}
+.subcontainer-2 h2 {
+    margin-bottom: 20px;
+}
+.hands {
+    border-left: none;
+}
+.connect {
+    border-left: none;
+}
+.hands {
+    position: relative;
+}
+.hands span {
+    position: absolute;
+    right: 70px;
+}
+.inbound {
+    position: relative;
+}
+.inbound span {
+    position: absolute;
+    right: 70px;
+}
+.connect {
+    position: relative;
+}
+.connect span {
+    position: absolute;
+    right: 70px;
+}
+.globe {
+    position: relative;
+}
+.globe span {
+    position: absolute;
+    right: 90px;
+}
+.growth {
+    position: relative;
+}
+.growth div {
+    margin-top: 25px;
+}
+.growth span {
+    position: absolute;
+    right: 80px;
+}
+.subcontainer-2 h2 {
+    font-size: 25px;
+}
+.custom-number {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+.growing-woman img {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    max-width: 290px;
+    max-height: 290px;
+}
+.growing-text h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.growing-text div {
+    width: 40%;
+    padding: 15px;
+    margin: 25px 0;
+}
+#sub-p {
+    font-size: 11px;
+}
+.customers-logos {
+    padding-top: 20px;
+}
+.customers-logos img {
+    vertical-align: middle;
+    margin: 10px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
